@@ -1,0 +1,85 @@
+/*
+ * Variables.
+ */
+/** Global styles */
+.hide, .xbee-hide {
+  display: none !important; }
+
+.xbee-btn {
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 1em;
+  background: #e6e6e6;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  cursor: pointer; }
+  .xbee-btn.xbee-btn-lg:before, .xbee-btn.xbee-btn-sm:before {
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+    background-image: url(../images/icon-xcoobee.svg);
+    background-size: contain;
+    margin-right: 0.25em;
+    width: 1.5em;
+    height: 1.5em; }
+  .xbee-btn.xbee-btn-sm:before {
+    margin-right: 0; }
+  .xbee-btn.xbee-btn-sm .xbee-btn-title,
+  .xbee-btn.xbee-btn-sm .xbee-btn-alt-title {
+    display: none; }
+  .xbee-btn .xbee-btn-title {
+    display: inline-block;
+    vertical-align: middle; }
+  .xbee-btn .xbee-btn-alt-title {
+    display: none;
+    vertical-align: middle; }
+  .xbee-btn:hover {
+    background: #231f20;
+    color: #fff; }
+    .xbee-btn:hover:before,
+    .xbee-btn:hover .xbee-btn-title {
+      display: none; }
+    .xbee-btn:hover .xbee-btn-alt-title {
+      display: inline-block; }
+
+.xbee-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000000ab;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  flex-flow: wrap;
+  z-index: 99999; }
+  .xbee-modal-container .xbee-modal {
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 500px;
+    border: 2px solid black; }
+    .xbee-modal-container .xbee-modal .xbee-modal-header {
+      background: #ffc039;
+      border-radius: 10px 10px 0 0;
+      padding: 1em; }
+      .xbee-modal-container .xbee-modal .xbee-modal-header .xbee-modal-title {
+        font-size: 1em;
+        font-weight: bold;
+        float: left;
+        line-height: 1em;
+        color: #000; }
+      .xbee-modal-container .xbee-modal .xbee-modal-header .xbee-modal-close {
+        height: 0.7em;
+        margin-top: 0.15em;
+        cursor: pointer;
+        float: right; }
+        .xbee-modal-container .xbee-modal .xbee-modal-header .xbee-modal-close:hover {
+          opacity: 0.75; }
+      .xbee-modal-container .xbee-modal .xbee-modal-header:after {
+        content: "";
+        display: block;
+        clear: both; }
+    .xbee-modal-container .xbee-modal .xbee-modal-message {
+      padding: 0.75em;
+      font-size: 1em; }

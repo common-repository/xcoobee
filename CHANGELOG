@@ -1,0 +1,28 @@
+== Changelog ==
+
+= 1.0.0 - 2019-01-07 =
+* Initial release.
+
+= 1.0.1 - 2019-01-08 =
+* Update plugin name
+* correct documentation links
+
+= 1.3.0 - 2019-03-21 =
+* Update XcooBee SDK version
+* handle events from XcooBee
+
+= 1.6.1 - 2019-07-21 =
+* Update XcooBee SDK version
+
+= 1.6.2 - 2019-07-27 =
+* update modal pop-up borders
+
+= 1.6.4 - 2019-10-27 =
+* update cache directory to be inside WP instance
+
+= 1.6.5 - 2019-12-15 =
+* autodetect security and make cache optional
+
+= 1.7.0 - 2020-01-29 =
+* tweaks to html
+
